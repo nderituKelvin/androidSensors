@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bloggy.sensors.MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accelerometer:"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:id="@+id/xVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X Value"
+                android:textSize="30sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/yVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Y Value"
+                android:textSize="30sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/zVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Z Value"
+                android:textSize="30sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:paddingTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GyroScope:"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:id="@+id/xGyro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X Value"
+                android:textSize="30sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/yGyro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Y Value"
+                android:textSize="30sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/zGyro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Z Value"
+                android:textSize="30sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:paddingTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Magnetometer:"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:id="@+id/xMagno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X Value"
+                android:textSize="30sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/yMagno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Y Value"
+                android:textSize="30sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/zMagno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Z Value"
+                android:textSize="30sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:paddingTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Light: "
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Light"
+                android:textSize="30sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
